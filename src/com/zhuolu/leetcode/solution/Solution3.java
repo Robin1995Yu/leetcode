@@ -43,8 +43,4 @@ public class Solution3 {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution3().lengthOfLongestSubstring("pwwkew"));
-    }
 }

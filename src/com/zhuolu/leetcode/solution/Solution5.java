@@ -41,8 +41,4 @@ public class Solution5 {
         }
         return s.substring(sResult, eResult + 1);
     }
-
-    public static void main(String[] args) {
-        System.out.println(new Solution5().longestPalindrome("bb"));
-    }
 }
