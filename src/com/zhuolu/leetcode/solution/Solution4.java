@@ -6,13 +6,34 @@ package com.zhuolu.leetcode.solution;
  */
 
 public class Solution4 {
+    // TODO
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length = nums1.length + nums2.length;
-        int center1 = length >> 2;
-        int center2 = center1;
-        if ((length & 1) == 0) {
-            center2++;
+        int k = length / 2;
+        int nums1Index = 0;
+        int nums2Index = 0;
+        while (k > 1) {
+            int steep = k / 2 - 1;
+            int nums1Steep = Integer.min(nums1Index + steep, nums1.length);
+            int nums2Steep = Integer.min(nums2Index + steep, nums2.length);
+            nums1Steep -= nums1Index;
+            nums2Steep -= nums2Index;
+            nums1Index += nums1Steep;
+            nums2Index += nums2Steep;
+            int nums1CurrValue = nums1[nums1Index];
+            int nums2CurrValue = nums2[nums2Index];
+            if (nums1CurrValue >= nums2CurrValue) {
+                k -= nums2Steep;
+                nums1Index -= nums1Steep;
+            } else {
+                k -= nums1Steep;
+                nums2Index -= nums2Steep;
+            }
         }
-        return 0;
+        return Integer.min(nums1[nums1Index], nums2[nums2Index]);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Solution4().findMedianSortedArrays(new int[]{1, 3, 4, 9}, new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9}));
     }
 }
