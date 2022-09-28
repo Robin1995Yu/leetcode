@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/zigzag-conversion/
- * @author zhuolu
- */
-
 public class Solution6 {
     public String convert(String s, int numRows) {
         if (s.length() == numRows || numRows == 1) {

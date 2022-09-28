@@ -4,11 +4,6 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * https://leetcode-cn.com/problems/integer-to-roman/
- * @author zhuolu
- */
-
 public class Solution12 {
     private Map<Integer, String> m = new TreeMap<Integer, String>(Comparator.reverseOrder()) {
         {

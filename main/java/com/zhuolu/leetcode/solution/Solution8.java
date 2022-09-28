@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/string-to-integer-atoi/
- * @author zhuolu
- */
-
 public class Solution8 {
     public int myAtoi(String s) {
         boolean startFlag = false;

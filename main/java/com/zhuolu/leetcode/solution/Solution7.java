@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/reverse-integer/
- * @author zhuolu
- */
-
 public class Solution7 {
 
     public int reverse(int x) {

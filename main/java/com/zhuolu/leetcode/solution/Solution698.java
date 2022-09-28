@@ -17,6 +17,6 @@ public class Solution698 {
                 return false;
             }
         }
-
+        return false;
     }
 }

@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
- * @author zhuolu
- */
-
 public class Solution4 {
     // TODO
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

@@ -3,10 +3,6 @@ package com.zhuolu.leetcode.solution;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * https://leetcode-cn.com/problems/roman-to-integer/
- * @author zhuolu
- */
 public class Solution13 {
     Map<Character, Integer> m = new HashMap<Character, Integer>() {
         {

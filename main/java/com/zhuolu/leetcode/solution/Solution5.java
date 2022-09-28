@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/longest-palindromic-substring/
- * @author zhuolu
- */
-
 public class Solution5 {
     public String longestPalindrome(String s) {
         if (s.length() <= 1) {

@@ -1,12 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-import java.util.TreeMap;
-
-/**
- * https://leetcode-cn.com/problems/palindrome-number/
- * @author zhuolu
- */
-
 public class Solution9 {
     public boolean isPalindrome(int x) {
         if (x < 0) {

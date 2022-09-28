@@ -1,10 +1,5 @@
 package com.zhuolu.leetcode.solution;
 
-/**
- * https://leetcode-cn.com/problems/container-with-most-water/
- * @author zhuolu
- */
-
 public class Solution11 {
     public int maxArea(int[] height) {
         int s = 0;
