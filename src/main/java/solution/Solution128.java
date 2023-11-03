@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution128 {
     public int longestConsecutive(int[] nums) {

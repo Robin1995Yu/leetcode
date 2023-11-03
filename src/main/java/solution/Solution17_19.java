@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution17_19 {
     public int[] missingTwo(int[] nums) {

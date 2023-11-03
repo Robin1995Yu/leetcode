@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 import java.util.Iterator;
 import java.util.Stack;

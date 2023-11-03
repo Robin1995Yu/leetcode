@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution105 {
     public TreeNode buildTree(int[] preorder, int[] inorder) {

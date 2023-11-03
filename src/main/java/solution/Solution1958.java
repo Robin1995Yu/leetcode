@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution1958 {
     public boolean checkMove(char[][] board, int rMove, int cMove, char color) {

@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution2236 {
     public boolean checkTree(TreeNode root) {

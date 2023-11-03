@@ -1,4 +1,4 @@
-package com.zhuolu.leetcode.solution;
+package solution;
 
 public class Solution1_2 {
     public boolean CheckPermutation(String s1, String s2) {

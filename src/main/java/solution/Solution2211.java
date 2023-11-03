@@ -1,6 +1,4 @@
-package com.zhuolu.leetcode.solution;
-
-import java.util.Stack;
+package solution;
 
 public class Solution2211 {
     public int countCollisions(String directions) {
