@@ -27,7 +27,7 @@ public class Solution5 {
             e2--;
             int length1 = e1 - s1;
             int length2 = e2 - s2;
-            int lengthTemp = length1 > length2 ? length1 : length2;
+            int lengthTemp = Math.max(length1, length2);
             int sTemp = length1 > length2 ? s1 : s2;
             int eTemp = length1 > length2 ? e1 : e2;
             int length = eResult - sResult;

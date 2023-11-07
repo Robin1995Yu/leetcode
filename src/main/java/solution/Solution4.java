@@ -57,7 +57,4 @@ public class Solution4 {
     private int get(int[] low, int startLow, int endLow, int[] hei, int startHei, int endHei, int index) {
         return index < endLow - startLow ? low[index + startLow] : hei[index - endLow + startLow + startHei];
     }
-
-    public static void main(String[] args) {
-    }
 }
